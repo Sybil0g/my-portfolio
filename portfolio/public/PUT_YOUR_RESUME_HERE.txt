@@ -1,0 +1,4 @@
+Drop your resume PDF in this folder and rename it to exactly: resume.pdf
+
+Then delete this text file. The Download Resume buttons on the Landing
+and Contact pages already link to /resume.pdf, so no code changes needed.

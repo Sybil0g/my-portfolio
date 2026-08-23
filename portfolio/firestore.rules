@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /projects/{projectId} {
+      // Anyone visiting the site can read projects (public portfolio)
+      allow read: if true;
+
+      // Only YOU (signed in as the admin) can create/edit/delete.
+      // Since you'll only ever create one Firebase Auth user (yourself),
+      // "request.auth != null" is enough — nobody else has credentials.
+      allow write: if request.auth != null;
+    }
+  }
+}
+
