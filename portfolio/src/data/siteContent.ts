@@ -65,8 +65,8 @@ const siteContent = {
     location: 'Manila, Philippines',
     availability: 'Available for opportunities in UI/UX Design, Graphic Design, Software Development & Administration.',
     socials: [
-      { label: 'GitHub', url: 'https://github.com/your-username' },
-      { label: 'LinkedIn', url: 'https://linkedin.com/in/your-username' },
+      { label: 'GitHub', url: 'https://github.com/Sybil0g' },
+      { label: 'LinkedIn', url: 'https://www.linkedin.com/in/smsenriquez/' },
     ],
   },
 
